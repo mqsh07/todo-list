@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.form{
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    box-shadow: 0 0 8px gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    width: 70%;
+    padding: 0.5rem;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+}
+form button {
+    width: 30%;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: blueviolet;
+    background-color: white;
+}
+.list{
+    max-width: 500px;
+    margin: auto;
+    list-style: none;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px blue;
+    cursor: pointer;
+    color: white;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    box-shadow:  0 0 5px black;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
